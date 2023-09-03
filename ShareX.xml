@@ -1,0 +1,2289 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShareX</name>
+    </assembly>
+    <members>
+        <member name="F:ShareX.BeforeUploadControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.BeforeUploadControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.BeforeUploadControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.NewsListControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.NewsListControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.NewsListControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.TaskThumbnailPanel.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.TaskThumbnailPanel.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.TaskThumbnailPanel.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.TaskThumbnailView.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.TaskThumbnailView.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.TaskThumbnailView.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.BorderlessWindowForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.BorderlessWindowForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.BorderlessWindowForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.BorderlessWindowSettingsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.BorderlessWindowSettingsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.BorderlessWindowSettingsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.ClipboardUploadForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.ClipboardUploadForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.ClipboardUploadForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.FirstTimeUploadForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.FirstTimeUploadForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.FirstTimeUploadForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.InspectWindowForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.InspectWindowForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.InspectWindowForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.PinToScreenForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.PinToScreenForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.OCRForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.OCRForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.ServiceLinksForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.ServiceLinksForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.ServiceLinksForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.PinToScreenStartupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.PinToScreenStartupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.PinToScreenStartupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.BeforeUploadForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.BeforeUploadForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.BeforeUploadForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.ClipboardFormatForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.ClipboardFormatForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.ClipboardFormatForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.AfterCaptureForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.AfterCaptureForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.AfterCaptureForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.AutoCaptureForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.AutoCaptureForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.AutoCaptureForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.DropForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.DropForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.DropForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.ActionsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.ActionsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.ActionsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.FileExistForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.FileExistForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.FileExistForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.AboutForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.AboutForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.AboutForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.QRCodeForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.QRCodeForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.QRCodeForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.QuickTaskMenuEditorForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.QuickTaskMenuEditorForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.QuickTaskMenuEditorForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.QuickTaskInfoEditForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.QuickTaskInfoEditForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.QuickTaskInfoEditForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.FirstTimeConfigForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.FirstTimeConfigForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.FirstTimeConfigForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.ActionsToolbarEditForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.ActionsToolbarEditForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.ActionsToolbarEditForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.ApplicationSettingsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.ApplicationSettingsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.ApplicationSettingsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.WatchFolderForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.WatchFolderForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.WatchFolderForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.AfterUploadForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.AfterUploadForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.AfterUploadForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.HotkeySelectionControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.HotkeySelectionControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.HotkeySelectionControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.TaskSettingsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.TaskSettingsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.TaskSettingsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ShareX.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ShareX.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Changelog">
+            <summary>
+              Looks up a localized string similar to Changelog.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Credits">
+            <summary>
+              Looks up a localized string similar to Credits.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_de">
+            <summary>
+              Looks up a localized string similar to German.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_es">
+            <summary>
+              Looks up a localized string similar to Spanish.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_es_MX">
+            <summary>
+              Looks up a localized string similar to Mexican Spanish.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_fa_IR">
+            <summary>
+              Looks up a localized string similar to Persian.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_fr">
+            <summary>
+              Looks up a localized string similar to French.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_hu">
+            <summary>
+              Looks up a localized string similar to Hungarian.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_id_ID">
+            <summary>
+              Looks up a localized string similar to Indonesian.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_it_IT">
+            <summary>
+              Looks up a localized string similar to Italian.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_ja_JP">
+            <summary>
+              Looks up a localized string similar to Japanese.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_ko_KR">
+            <summary>
+              Looks up a localized string similar to Korean.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_nl_NL">
+            <summary>
+              Looks up a localized string similar to Dutch.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_pl">
+            <summary>
+              Looks up a localized string similar to Polish.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_pt_BR">
+            <summary>
+              Looks up a localized string similar to Portuguese (Brazil).
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_pt_PT">
+            <summary>
+              Looks up a localized string similar to Portuguese.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_ro">
+            <summary>
+              Looks up a localized string similar to Romanian.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_ru">
+            <summary>
+              Looks up a localized string similar to Russian.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_tr">
+            <summary>
+              Looks up a localized string similar to Turkish.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_uk">
+            <summary>
+              Looks up a localized string similar to Ukrainian.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_vi_VN">
+            <summary>
+              Looks up a localized string similar to Vietnamese.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_zh_CH">
+            <summary>
+              Looks up a localized string similar to Simplified Chinese.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Language_zh_TW">
+            <summary>
+              Looks up a localized string similar to Traditional Chinese.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Links">
+            <summary>
+              Looks up a localized string similar to Links.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Privacy_policy">
+            <summary>
+              Looks up a localized string similar to Privacy policy.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Project_page">
+            <summary>
+              Looks up a localized string similar to Project page.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Team">
+            <summary>
+              Looks up a localized string similar to Team.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Translators">
+            <summary>
+              Looks up a localized string similar to Translators.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AboutForm_AboutForm_Website">
+            <summary>
+              Looks up a localized string similar to Website.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ActionsForm_btnOK_Click_File_path_can_t_be_empty_">
+            <summary>
+              Looks up a localized string similar to File path can&apos;t be empty..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ActionsForm_btnOK_Click_Name_can_t_be_empty_">
+            <summary>
+              Looks up a localized string similar to Name can&apos;t be empty..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ActionsToolbar__LockPosition">
+            <summary>
+              Looks up a localized string similar to Lock position.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ActionsToolbar_Close">
+            <summary>
+              Looks up a localized string similar to Close.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ActionsToolbar_Edit">
+            <summary>
+              Looks up a localized string similar to Edit....
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ActionsToolbar_OpenAtShareXStartup">
+            <summary>
+              Looks up a localized string similar to Open at ShareX startup.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ActionsToolbar_StayTopMost">
+            <summary>
+              Looks up a localized string similar to Stay top most.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ActionsToolbar_Tip">
+             <summary>
+               Looks up a localized string similar to Hold left down to drag
+            Right click to open menu
+            Middle click to close.
+             </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ActionsToolbarEditForm_Separator">
+            <summary>
+              Looks up a localized string similar to Separator.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application__arrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_block">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_blog">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_blue">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_browser">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_home">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_icon_large">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_list">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_monitor">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_resize_full">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_search_result">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_task">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_terminal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_text_image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_tile_horizontal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.application_tile_vertical">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ApplicationSettingsForm_btnBrowseCustomScreenshotsPath_Click_Choose_screenshots_folder_path">
+            <summary>
+              Looks up a localized string similar to Choose screenshots folder path.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ApplicationSettingsForm_btnBrowsePersonalFolderPath_Click_Choose_ShareX_personal_folder_path">
+            <summary>
+              Looks up a localized string similar to Choose ShareX personal folder path.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings">
+            <summary>
+              Looks up a localized string similar to Would you like to reset ShareX settings?.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ApplicationSettingsForm_cbLanguage_SelectedIndexChanged_Language_Restart">
+             <summary>
+               Looks up a localized string similar to ShareX needs to be restarted for the language changes to apply.
+            
+            Would you like to restart ShareX?.
+             </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text">
+            <summary>
+              Looks up a localized string similar to Startup has been disabled by your organization.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ApplicationSettingsForm_cbStartWithWindows_DisabledByUser_Text">
+            <summary>
+              Looks up a localized string similar to Startup has been disabled in Task Manager.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ApplicationSettingsForm_cbStartWithWindows_EnabledByPolicy_Text">
+            <summary>
+              Looks up a localized string similar to Startup has been enabled by your organization.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ApplicationSettingsForm_cbStartWithWindows_Text">
+            <summary>
+              Looks up a localized string similar to Run ShareX when Windows starts.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ApplicationSettingsForm_cbSteamShowInApp_CheckedChanged_For_settings_to_take_effect_ShareX_needs_to_be_reopened_from_Steam_">
+            <summary>
+              Looks up a localized string similar to For settings to take effect ShareX needs to be reopened from Steam..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.arrow_090">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.arrow_270">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AutoCaptureForm_Execute_Start">
+            <summary>
+              Looks up a localized string similar to Start.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AutoCaptureForm_Execute_Stop">
+            <summary>
+              Looks up a localized string similar to Stop.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_">
+            <summary>
+              Looks up a localized string similar to X: {0}, Y: {1}, Width: {2}, Height: {3}.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_">
+            <summary>
+              Looks up a localized string similar to Timeleft: {0}s ({1}%) Total: {2}.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.balloon_white">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.barcode_2d">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.barcode_2d_white">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.BeforeUploadControl_AddDestination_Custom">
+            <summary>
+              Looks up a localized string similar to Custom.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.BeforeUploadForm_BeforeUploadForm__0__is_about_to_be_uploaded_to__1___You_may_choose_a_different_destination_">
+            <summary>
+              Looks up a localized string similar to {0} is about to be uploaded to {1}. You may choose a different destination..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_">
+            <summary>
+              Looks up a localized string similar to Please choose a destination..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.bin">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Bing">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.br">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.camcorder__arrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.camcorder__exclamation">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.camcorder__minus">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.camcorder_image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.camcorder_pencil">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.camera">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.CaptureSound">
+            <summary>
+              Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.categories">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.checkbox_check">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.checkbox_uncheck">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ChromeForm_btnRegister_Click_Chrome_support_enabled_">
+            <summary>
+              Looks up a localized string similar to Chrome support enabled..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ChromeForm_btnUnregister_Click_Chrome_support_disabled_">
+            <summary>
+              Looks up a localized string similar to Chrome support disabled..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.clipboard">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.clipboard_block">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.clipboard_list">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.clipboard_paste_document_text">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.clipboard_paste_image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.clipboard_task">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__File__Count___0__">
+            <summary>
+              Looks up a localized string similar to Clipboard content: File (Count: {0}).
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__">
+            <summary>
+              Looks up a localized string similar to Clipboard content: Image (Size: {0}x{1}).
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__">
+            <summary>
+              Looks up a localized string similar to Clipboard content: Text (Length: {0}).
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_is_empty_or_contains_unknown_data_">
+            <summary>
+              Looks up a localized string similar to Clipboard is empty or contains unknown data..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ClipboardDoesNotContainAnImage">
+            <summary>
+              Looks up a localized string similar to Clipboard does not contain an image..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_">
+            <summary>
+              Looks up a localized string similar to Supported variables: {0} and other variables such as {1} etc..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.clock">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.clock__arrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.clock_select">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.closedhand">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.cn">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.color">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Confirmation">
+            <summary>
+              Looks up a localized string similar to Confirmation.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.control">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.cross">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.cross_button">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.crown">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.cursor">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.de">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Description">
+            <summary>
+              Looks up a localized string similar to Description.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Discord">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.disk">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.disk_black">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.disk_rename">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.disk_small">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.document_break">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.document_copy">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.drive">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.drive_download">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.drive_globe">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.drive_upload">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.DropForm_DrawDropImage_Drop_here">
+             <summary>
+               Looks up a localized string similar to Drop
+            here.
+             </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.edit_drop_cap">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.edit_drop_cap_white">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.edit_scale">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.edit_scale_white">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.eraser">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Error">
+            <summary>
+              Looks up a localized string similar to Error.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ErrorSound">
+            <summary>
+              Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.es">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.exclamation">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Exclamation_16">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.exclamation_button">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.FailedToSaveSettings">
+            <summary>
+              Looks up a localized string similar to Failed to save settings.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.FFmpeg_FFmpeg_error">
+            <summary>
+              Looks up a localized string similar to FFmpeg error.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.FFmpeg_FFmpeg_video_and_audio_source_both_can_t_be__None__">
+            <summary>
+              Looks up a localized string similar to FFmpeg video and audio source can&apos;t both be &quot;None&quot;..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.FFmpegDoesNotExistAtTheFollowingPath">
+            <summary>
+              Looks up a localized string similar to FFmpeg does not exist at the following path:.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.FFmpegIsMissing">
+            <summary>
+              Looks up a localized string similar to FFmpeg is missing.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.FFmpegOnlySupports64BitOperatingSystems">
+            <summary>
+              Looks up a localized string similar to FFmpeg that comes with ShareX only supports 64-bit operating systems..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.FileExistForm_txtNewName_TextChanged_Use_new_name__">
+            <summary>
+              Looks up a localized string similar to Use new name: .
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.film">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.film__arrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.folder">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.folder_open_document">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.folder_open_image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.folder_stand">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.folder_tree">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.fr">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.gear">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.GitHub">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.GitHubDark">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.globe">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.globe__arrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.globe_pencil">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.globe_share">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Google">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.heart">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Hotkey">
+            <summary>
+              Looks up a localized string similar to Hotkey.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.HotkeyManager_ShowFailedHotkeys_hotkey">
+            <summary>
+              Looks up a localized string similar to hotkey.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.HotkeyManager_ShowFailedHotkeys_Hotkey_registration_failed">
+            <summary>
+              Looks up a localized string similar to Hotkey registration failed.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.HotkeyManager_ShowFailedHotkeys_hotkeys">
+            <summary>
+              Looks up a localized string similar to hotkeys.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.HotkeyManager_ShowFailedHotkeys_These_applications_could_be_conflicting_">
+            <summary>
+              Looks up a localized string similar to There may be an application conflict:.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.HotkeyManager_ShowFailedHotkeys_Unable_to_register_hotkey">
+             <summary>
+               Looks up a localized string similar to Unable to register {0}:
+            
+            {1}
+            
+            Please select a different hotkey or quit the conflicting application and reopen ShareX..
+             </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.HotkeySelectionControl_StartEditing_Select_a_hotkey___">
+            <summary>
+              Looks up a localized string similar to Select a hotkey....
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.HotkeySettingsForm_Reset_all_hotkeys_to_defaults_Confirmation">
+            <summary>
+              Looks up a localized string similar to Reset all hotkeys to defaults?.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.hu">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.id">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.image_export">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.image_pencil">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.image_resize_actual">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.image_saturation">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.image_split">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ImageData_Write_Error_Message">
+            <summary>
+              Looks up a localized string similar to Could not write image to path:.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.images_flickr">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.images_stack">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.inbox">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.information">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.InspectWindow_ClassName">
+            <summary>
+              Looks up a localized string similar to Class name.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.InspectWindow_ClientRectangle">
+            <summary>
+              Looks up a localized string similar to Client rectangle.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.InspectWindow_ExtendedWindowStyles">
+            <summary>
+              Looks up a localized string similar to Extended window styles.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.InspectWindow_ProcessFileName">
+            <summary>
+              Looks up a localized string similar to Process file name.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.InspectWindow_ProcessIdentifier">
+            <summary>
+              Looks up a localized string similar to Process identifier.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.InspectWindow_ProcessName">
+            <summary>
+              Looks up a localized string similar to Process name.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.InspectWindow_WindowHandle">
+            <summary>
+              Looks up a localized string similar to Window handle.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.InspectWindow_WindowRectangle">
+            <summary>
+              Looks up a localized string similar to Window rectangle.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.InspectWindow_WindowStyles">
+            <summary>
+              Looks up a localized string similar to Window styles.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.InspectWindow_WindowTitle">
+            <summary>
+              Looks up a localized string similar to Window title.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.IntegrationHelpers_EditWithShareX">
+            <summary>
+              Looks up a localized string similar to Edit with ShareX.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.IntegrationHelpers_UploadWithShareX">
+            <summary>
+              Looks up a localized string similar to Upload with ShareX.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ir">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.it">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.jp">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.keyboard">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.keyboard__minus">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.keyboard__plus">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.kr">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.layer__arrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.layer_fullscreen">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.layer_shape">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.layer_transparent">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.layers">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.MainForm_tsmiDeleteSelectedFile_Click_Do_you_really_want_to_delete_this_file_">
+            <summary>
+              Looks up a localized string similar to Do you really want to delete this file?.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation">
+            <summary>
+              Looks up a localized string similar to File delete confirmation.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.MainForm_tsmiTestTextUpload_Click_Text_upload_test">
+            <summary>
+              Looks up a localized string similar to Text upload test.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.MainForm_UpdateMainFormTip_Currently_configured_hotkeys_">
+            <summary>
+              Looks up a localized string similar to Currently configured hotkeys:.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.MainForm_UpdateToggleHotkeyButton_Disable_hotkeys">
+            <summary>
+              Looks up a localized string similar to Disable hotkeys.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.MainForm_UpdateToggleHotkeyButton_Enable_hotkeys">
+            <summary>
+              Looks up a localized string similar to Enable hotkeys.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.MainForm_UpdateWorkflowsMenu_You_can_add_workflows_from_hotkey_settings___">
+            <summary>
+              Looks up a localized string similar to You can add workflows from hotkey settings....
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.MainForm_UploadDebugLogWarning">
+            <summary>
+              Looks up a localized string similar to The debug log can contain sensitive information. Are you sure you want to proceed?.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.megaphone">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.monitor">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.mx">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.navigation_000_button">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.navigation_090_button">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.network_cloud">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.network_ip">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.nl">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.notebook">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.OCRForm_AutoComplete">
+            <summary>
+              Looks up a localized string similar to The OCR output has been copied to your clipboard..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.OCRForm_AutoCompleteFail">
+            <summary>
+              Looks up a localized string similar to Error occurred during OCR processing, or no text was returned..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.OCRForm_AutoProcessing">
+            <summary>
+              Looks up a localized string similar to OCR is processing..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.openhand">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.OpticalCharacterRecognitionFeatureIsOnlyAvailableWithWindowsVersion0OrNewer">
+            <summary>
+              Looks up a localized string similar to Optical character recognition feature is only available with Windows version {0} or newer..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.pencil">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.pin">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.PinToScreen">
+            <summary>
+              Looks up a localized string similar to Pin to screen.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.pipette">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.pl">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.printer">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Program_Run_Unable_to_create_folder_">
+            <summary>
+              Looks up a localized string similar to Unable to create folder:.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Program_WritePersonalPathConfig_Cant_access_to_file">
+             <summary>
+               Looks up a localized string similar to Can&apos;t access to &quot;{0}&quot; file.
+            Please run ShareX as administrator to change personal folder path..
+             </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.pt">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.QRCodeForm_InputTextToEncode">
+            <summary>
+              Looks up a localized string similar to Input text to encode.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.question">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.QuickTaskMenu_ShowMenu_Cancel">
+            <summary>
+              Looks up a localized string similar to Cancel.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.QuickTaskMenu_ShowMenu_Continue">
+            <summary>
+              Looks up a localized string similar to Continue.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.QuickTaskMenu_ShowMenu_Edit_this_menu___">
+            <summary>
+              Looks up a localized string similar to Edit this menu....
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.QuickTaskMenuEditorForm_Reset_all_quick_tasks_to_defaults_Confirmation">
+            <summary>
+              Looks up a localized string similar to Reset all quick tasks to defaults?.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_">
+            <summary>
+              Looks up a localized string similar to Left click to copy URL to clipboard. Right click to open URL..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Rectangle">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ro">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ru">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ruler_triangle">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ScreenColorPicker">
+            <summary>
+              Looks up a localized string similar to Screen color picker.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ScreenshotDelay0S">
+            <summary>
+              Looks up a localized string similar to Screenshot delay: {0}s.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.script__minus">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ShareXConfirmation">
+            <summary>
+              Looks up a localized string similar to ShareX - Confirmation.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ShareXIsMinimizedToTheSystemTray">
+            <summary>
+              Looks up a localized string similar to ShareX is minimized to the system tray..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ShareXNeedsToBeRestartedForThePersonalFolderChangesToApply">
+             <summary>
+               Looks up a localized string similar to ShareX needs to be restarted for the personal folder changes to apply.
+            
+            Would you like to restart ShareX?.
+             </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.status">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.status_away">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.status_busy">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.SwitchToListView">
+            <summary>
+              Looks up a localized string similar to Switch to list view.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.SwitchToThumbnailView">
+            <summary>
+              Looks up a localized string similar to Switch to thumbnail view.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskCompletedSound">
+            <summary>
+              Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskHelpers_OpenQuickScreenColorPicker_Copied_to_clipboard___0_">
+            <summary>
+              Looks up a localized string similar to Copied to clipboard: {0}.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskHelpers_ToggleHotkeys_Hotkeys_disabled_">
+            <summary>
+              Looks up a localized string similar to Hotkeys disabled..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskHelpers_ToggleHotkeys_Hotkeys_enabled_">
+            <summary>
+              Looks up a localized string similar to Hotkeys enabled..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskHelpers_TweetMessage_Tweet_successfully_sent_">
+            <summary>
+              Looks up a localized string similar to Tweet successfully sent..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskHelpers_TweetMessage_Unable_to_find_valid_Twitter_account_">
+            <summary>
+              Looks up a localized string similar to Unable to find a valid Twitter account..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskManager_CreateListViewItem_History">
+            <summary>
+              Looks up a localized string similar to History.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskManager_CreateListViewItem_In_queue">
+            <summary>
+              Looks up a localized string similar to In queue.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskManager_task_UploadCompleted_Error">
+            <summary>
+              Looks up a localized string similar to Error.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskManager_task_UploadCompleted_ShareX___Task_completed">
+            <summary>
+              Looks up a localized string similar to Task completed.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_">
+            <summary>
+              Looks up a localized string similar to Preview:.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskSettingsForm_UpdateUploaderMenuNames_After_capture___0_">
+            <summary>
+              Looks up a localized string similar to After capture: {0}.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskSettingsForm_UpdateUploaderMenuNames_After_upload___0_">
+            <summary>
+              Looks up a localized string similar to After upload: {0}.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskSettingsForm_UpdateUploaderMenuNames_File_uploader___0_">
+            <summary>
+              Looks up a localized string similar to File uploader: {0}.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskSettingsForm_UpdateUploaderMenuNames_Image_uploader___0_">
+            <summary>
+              Looks up a localized string similar to Image uploader: {0}.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_">
+            <summary>
+              Looks up a localized string similar to Text uploader: {0}.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_">
+            <summary>
+              Looks up a localized string similar to URL sharing service: {0}.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_">
+            <summary>
+              Looks up a localized string similar to URL shortener: {0}.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskSettingsForm_UpdateWindowTitle_Task_settings">
+            <summary>
+              Looks up a localized string similar to Task settings.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.TaskSettingsForm_UpdateWindowTitle_Task_settings_for__0_">
+            <summary>
+              Looks up a localized string similar to Task settings for {0}.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ThisFeatureWillNotWorkWhenDisableUploadOptionIsEnabled">
+            <summary>
+              Looks up a localized string similar to This feature will not work when &quot;DisableUpload&quot; option is enabled!.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.tick_button">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.toolbox">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.tr">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.traffic_cone">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.tw">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.Twitter">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ua">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.uac">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ui_menu_blue">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ui_scroll_pane_image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ui_splitter">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.ui_toolbar__arrow">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UnableToFindAWindowWithSpecifiedWindowTitle">
+            <summary>
+              Looks up a localized string similar to Unable to find a window with specified window title..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.upload_cloud">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadInfoManager_ShowErrors_Upload_errors">
+            <summary>
+              Looks up a localized string similar to Upload errors.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadManager_DownloadAndUploadFile_Download_failed">
+             <summary>
+               Looks up a localized string similar to Download failed:
+            {0}.
+             </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadManager_IsUploadConfirmed_Are_you_sure_you_want_to_upload__0__files_">
+            <summary>
+              Looks up a localized string similar to Are you sure you want to upload {0} files?.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadManager_IsUploadConfirmed_Don_t_show_this_message_again_">
+            <summary>
+              Looks up a localized string similar to Don&apos;t show this message again..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadManager_IsUploadConfirmed_Upload_files">
+            <summary>
+              Looks up a localized string similar to Upload files.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadManager_ShowShortenURLDialog_Shorten">
+            <summary>
+              Looks up a localized string similar to Shorten.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadManager_ShowShortenURLDialog_ShortenURL">
+            <summary>
+              Looks up a localized string similar to Shorten URL.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadManager_UploadFile_File_upload">
+            <summary>
+              Looks up a localized string similar to File upload.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadManager_UploadFolder_Folder_upload">
+            <summary>
+              Looks up a localized string similar to Folder upload.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadManager_UploadURL_URL_to_download_from_and_upload">
+            <summary>
+              Looks up a localized string similar to URL to download and upload.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_CreateShareURLTask_Share_URL___0__">
+            <summary>
+              Looks up a localized string similar to Share URL ({0}).
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_CreateURLShortenerTask_Shorten_URL___0__">
+            <summary>
+              Looks up a localized string similar to Shorten URL ({0}).
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_DoAfterCaptureJobs_Choose_a_folder_to_save">
+            <summary>
+              Looks up a localized string similar to Choose a folder to save.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_DoUploadJob_First_time_upload_warning">
+            <summary>
+              Looks up a localized string similar to First time upload warning.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_DoUploadJob_First_time_upload_warning_text">
+             <summary>
+               Looks up a localized string similar to Are you sure you want to upload this screenshot?
+            Press &apos;No&apos; to cancel the current upload and disable screenshot auto uploading..
+             </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_DoUploadJob_Uploading">
+            <summary>
+              Looks up a localized string similar to Uploading.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_DoUploadJob_You_are_attempting_to_upload_a_large_file">
+             <summary>
+               Looks up a localized string similar to You are attempting to upload a large file.
+            Are you sure you want to continue?.
+             </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_DownloadAndUpload_Downloading">
+            <summary>
+              Looks up a localized string similar to Downloading.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_OnUploadCompleted_Done">
+            <summary>
+              Looks up a localized string similar to Done.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_OnUploadCompleted_Stopped">
+            <summary>
+              Looks up a localized string similar to Stopped.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_Prepare_Preparing">
+            <summary>
+              Looks up a localized string similar to Preparing.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_Prepare_Starting">
+            <summary>
+              Looks up a localized string similar to Starting.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_Stop_Stopping">
+            <summary>
+              Looks up a localized string similar to Stopping.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.UploadTask_ThreadDoWork_URL_is_empty_">
+            <summary>
+              Looks up a localized string similar to URL is empty..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.us">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.vn">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_">
+            <summary>
+              Looks up a localized string similar to {0} configuration is invalid or missing. Please check &quot;Destination settings&quot; window to configure it..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.WouldYouLikeToEnableImageEffects">
+             <summary>
+               Looks up a localized string similar to Would you like to enable image effects?
+            
+            You can later disable it from &quot;After capture tasks&quot; menu..
+             </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.WouldYouLikeToResetThemes">
+            <summary>
+              Looks up a localized string similar to Would you like to reset themes?.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.wrench_screwdriver">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.YourAntiVirusSoftwareOrTheControlledFolderAccessFeatureInWindowsCouldBeBlockingShareX">
+            <summary>
+              Looks up a localized string similar to Your anti-virus software or the controlled folder access feature in Windows could be blocking ShareX..
+            </summary>
+        </member>
+        <member name="P:ShareX.Properties.Resources.YourSystemAdminDisabledTheUploadFeature">
+            <summary>
+              Looks up a localized string similar to Your system admin disabled the upload feature..
+            </summary>
+        </member>
+        <member name="F:ShareX.HotkeySettingsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ShareX.HotkeySettingsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ShareX.HotkeySettingsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ShareX.WatchFolderManager">
+            <summary>
+            Maintains the list of folders to monitor.
+            <remarks>
+            !!!! This class is not thread safe !!!!
+            </remarks>
+            </summary>
+        </member>
+        <member name="P:ShareX.WatchFolderManager.WatchFolders">
+            <summary>
+            Contains the list of the <see cref="T:ShareX.WatchFolder"/> objects to watch.
+            </summary>
+        </member>
+        <member name="M:ShareX.WatchFolderManager.UpdateWatchFolders">
+            <summary>
+            Updates the <see cref="P:ShareX.WatchFolderManager.WatchFolders"/> collection:
+            1. Unregisters current object list
+            2. Items taken from the global objects:
+               - Program.DefaultTaskSettings.WatchFolderList
+               - Program.HotkeysConfig.Hotkeys
+               will be added using <see cref="M:ShareX.WatchFolderManager.AddWatchFolder(ShareX.WatchFolderSettings,ShareX.TaskSettings)"/>
+            </summary>
+        </member>
+        <member name="M:ShareX.WatchFolderManager.AddWatchFolder(ShareX.WatchFolderSettings,ShareX.TaskSettings)">
+            <summary>
+            Adds new folder to monitor in the <see cref="P:ShareX.WatchFolderManager.WatchFolders"/> collection is not present in the collection.
+            </summary>
+            <param name="watchFolderSetting">
+            <see cref="T:ShareX.WatchFolderSettings"/> object.
+            To use as a <c>Settings</c> for the new <see cref="T:ShareX.WatchFolder"/>.
+            </param>
+            <param name="taskSettings"><see cref="T:ShareX.TaskSettings"/> object.
+            To use as a <c>TaskSettings</c> for the new <see cref="T:ShareX.WatchFolder"/>.</param>
+        </member>
+        <member name="M:ShareX.WatchFolderManager.RemoveWatchFolder(ShareX.WatchFolderSettings)">
+            <summary>
+            Removes <see cref="T:ShareX.WatchFolder"/> object from the <see cref="P:ShareX.WatchFolderManager.WatchFolders"/> collection.
+            Search for existing object performed by using <paramref name="watchFolderSetting"/>.
+            </summary>
+            <param name="watchFolderSetting"><see cref="T:ShareX.WatchFolderSettings"/> object.</param>
+        </member>
+        <member name="M:ShareX.WatchFolderManager.UpdateWatchFolderState(ShareX.WatchFolderSettings)">
+            <summary>
+            Updates the <see cref="T:ShareX.WatchFolder"/> object state if such object was found by the given <see cref="T:ShareX.WatchFolderSettings"/> object.
+            In case <c>WatchFolder</c> is found and <c>WatchFolder</c> is enabled by <c>WatchFolder.TaskSettings</c>
+            <c>Enable</c> method will be called on found object, otherwise <c>WatchFolder</c> will be disposed.
+            </summary>
+            <param name="watchFolderSetting"><see cref="T:ShareX.WatchFolderSettings"/> object.</param>
+        </member>
+        <member name="M:ShareX.WatchFolderManager.UnregisterAllWatchFolders">
+            <summary>
+            Dispose all <see cref="T:ShareX.WatchFolder"/> objects in the <see cref="P:ShareX.WatchFolderManager.WatchFolders"/> collection.
+            </summary>
+        </member>
+        <member name="M:ShareX.WatchFolderManager.Dispose">
+            <summary>
+            Cleans all used resources.
+            </summary>
+        </member>
+    </members>
+</doc>

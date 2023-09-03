@@ -23,6 +23,30 @@
 
 #endregion License Information (GPL v3)
 
+
+/*
+    13:00 started reviewing https://github.com/ShareX/ShareX/blob/develop/ShareX/WatchFolderManager.cs src
+
+
+    Bugs:
+    Publicly accessible WatchFolders collection.
+    Possible NRE: Program.DefaultTaskSettings.WatchFolderList
+    Possible NRE: Program.HotkeysConfig.Hotkeys
+    Concurrency issue in 'AddWatchFolder' ('if (!IsExist(watchFolderSetting))')
+    Concurrency issue in 'AddWatchFolder' (' if (!taskSettings.WatchFolderList.Contains(watchFolderSetting))')
+    Memory leak in ' watchFolder.FileWatcherTrigger += origPath =>...'
+    Concurrency issue when check and move files
+    Concurrency issue in 'RemoveWatchFolder'
+    It is possible to use of the disposed object after 'UpdateWatchFolderState' method called
+    Is is possible to dispose objects more than once
+
+    Issues:
+    Disposable pattern is not used in non sealed class,
+
+    13:30 review is finished, 8 issues found.
+
+*/
+
 using ShareX.HelpersLib;
 using System;
 using System.Collections.Generic;
@@ -31,10 +55,27 @@ using System.Linq;
 
 namespace ShareX
 {
+    /// <summary>
+    /// Maintains the list of folders to monitor.
+    /// <remarks>
+    /// !!!! This class is not thread safe !!!!
+    /// </remarks>
+    /// </summary>
     public class WatchFolderManager : IDisposable
     {
+        /// <summary>
+        /// Contains the list of the <see cref="WatchFolder"/> objects to watch.
+        /// </summary>
         public List<WatchFolder> WatchFolders { get; private set; }
 
+        /// <summary>
+        /// Updates the <see cref="WatchFolders"/> collection:
+        /// 1. Unregisters current object list
+        /// 2. Items taken from the global objects:
+        ///    - Program.DefaultTaskSettings.WatchFolderList
+        ///    - Program.HotkeysConfig.Hotkeys
+        ///    will be added using <see cref="AddWatchFolder"/>
+        /// </summary>
         public void UpdateWatchFolders()
         {
             if (WatchFolders != null)
@@ -68,6 +109,15 @@ namespace ShareX
             return FindWatchFolder(watchFolderSetting) != null;
         }
 
+        /// <summary>
+        /// Adds new folder to monitor in the <see cref="WatchFolders"/> collection is not present in the collection.
+        /// </summary>
+        /// <param name="watchFolderSetting">
+        /// <see cref="WatchFolderSettings"/> object.
+        /// To use as a <c>Settings</c> for the new <see cref="WatchFolder"/>.
+        /// </param>
+        /// <param name="taskSettings"><see cref="TaskSettings"/> object.
+        /// To use as a <c>TaskSettings</c> for the new <see cref="WatchFolder"/>.</param>
         public void AddWatchFolder(WatchFolderSettings watchFolderSetting, TaskSettings taskSettings)
         {
             if (!IsExist(watchFolderSetting))
@@ -107,6 +157,11 @@ namespace ShareX
             }
         }
 
+        /// <summary>
+        /// Removes <see cref="WatchFolder"/> object from the <see cref="WatchFolders"/> collection.
+        /// Search for existing object performed by using <paramref name="watchFolderSetting"/>.
+        /// </summary>
+        /// <param name="watchFolderSetting"><see cref="WatchFolderSettings"/> object.</param>
         public void RemoveWatchFolder(WatchFolderSettings watchFolderSetting)
         {
             using (WatchFolder watchFolder = FindWatchFolder(watchFolderSetting))
@@ -119,6 +174,12 @@ namespace ShareX
             }
         }
 
+        /// <summary>
+        /// Updates the <see cref="WatchFolder"/> object state if such object was found by the given <see cref="WatchFolderSettings"/> object.
+        /// In case <c>WatchFolder</c> is found and <c>WatchFolder</c> is enabled by <c>WatchFolder.TaskSettings</c>
+        /// <c>Enable</c> method will be called on found object, otherwise <c>WatchFolder</c> will be disposed.
+        /// </summary>
+        /// <param name="watchFolderSetting"><see cref="WatchFolderSettings"/> object.</param>
         public void UpdateWatchFolderState(WatchFolderSettings watchFolderSetting)
         {
             WatchFolder watchFolder = FindWatchFolder(watchFolderSetting);
@@ -135,6 +196,9 @@ namespace ShareX
             }
         }
 
+        /// <summary>
+        /// Dispose all <see cref="WatchFolder"/> objects in the <see cref="WatchFolders"/> collection.
+        /// </summary>
         public void UnregisterAllWatchFolders()
         {
             if (WatchFolders != null)
@@ -149,6 +213,9 @@ namespace ShareX
             }
         }
 
+        /// <summary>
+        /// Cleans all used resources.
+        /// </summary>
         public void Dispose()
         {
             UnregisterAllWatchFolders();
